@@ -1,14 +1,14 @@
 pipeline {
     agent any
     stages {
-        stage('sprintbranch') {
+        stage('saik branch') {
             steps {
-                sh 'echo "This is sprint branch"'
+                sh 'echo "This is saik branch"'
             }
         }
-        stage('test') {
+        stage('dev') {
             steps {
-                sh 'echo "test application."'
+                sh 'echo "dev application."'
             }
         }
         stage("Deploy application") {
